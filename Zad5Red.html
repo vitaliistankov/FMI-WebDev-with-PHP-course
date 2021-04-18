@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title> Пощенска банка  </title>
+<script type="text/javascript">
+function winproz() {
+	window.open("banka.htm", "win1", 
+		"top=100,left=530, width = 340, height = 220, status=yes")}
+</script> </head> <body bgcolor=yellow>
+<h3 onclick="winproz()"> <a href="#" >Пощенска банка </a></h3>
+<table border="4" bordercolor = "black" cellspacing="0" cellpadding="9">
+	<caption> <big> <b> Лихвени нива </b> </big> </caption>
+	<tr> <th colspan="2"> Валута <th> Лева </tr>
+		<tr> <th rowspan="2"> Нива  <th colspan="2"> Периоди </tr>
+
+<tr> <th> Три месеца <th>Шест месеца </tr>
+	<tr><td> 100-1000 <td align="right"> 1,53% <td align="right"> 2,54% </tr>
+		<tr><td> 1000,01-3000 <td align="right"> 2,22% <td align="right"> 3,33% </tr>
+			<tr><td> Над 3000 <td align="right"> 3,15% <td align="right"> 4,35% </tr>
+				<tr>  <th> Web -майстор <th colspan="2"> Vit Stan </tr>
+
+
+</table> <p>
+	<form name = "f1" action="Zad5Red.php" method="post">
+		Задайте начална сума >=100 : <input type="text" name="nsum" size="8"> <p>
+		Задайте период в брой месеци (3 или 6) : <input type="text" name="per" size="6"> 
+		<p> <input type="submit" value="Потвърдете">
+
+
+
+	</form></body></html>
