@@ -26,14 +26,14 @@ $email=$_POST['e-mail'];
 						if( $n < $m) 
 						{
 							$k = $m - $n;
-							echo "Заявка за доставка на материали за" . $name1 . "до <p>";
+							echo "Заявка за доставка на материали за " . $name1 . " до <p>";
 							echo"<form>";
-							echo "Имне на доставчика: <input type='text' name='" . $name2 . "' value = '" . $name2 . "'> <p>";
+							echo "Име на доставчика: <input type='text' name='" . $name2 . "' value = '" . $name2 . "'> <p>";
 								echo "E-mail на доставчика: <input type='text' name='" . $email . "' value = '" . $email . "'> <p>";
 									echo "Име на материала: <input type='text' name='" . $name1 . "' value = '" . $name1 . "'> <p>";
 										echo "Брой за доставка: <input type='text' name='count' value = '" . $k . "'> <p>";
 
 							echo "</form>"; 	
 					}
-					else echo "Нфма нужда от доставка";
+					else echo "Няма нужда от доставка";
 					?>
