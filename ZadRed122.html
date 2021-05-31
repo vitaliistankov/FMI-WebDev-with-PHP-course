@@ -1,0 +1,43 @@
+<html> <head> <meta charset="utf-8">
+<title> Хотел "Рай"  </title> </head>
+<body bgcolor="lightgray">
+<h2> Хотел "Рай"  </h2> 
+<h3>Заявка за нощувки</h3>
+<form name = "f1" action="ZadRed122.php" method="post">
+Задайте името си: <input type="text" name="ime" size="40"><p>
+Задайте имейла си: <input type="text" name="email" size="32"><p>
+Задайте форма на плащане: &nbsp;
+<input type="radio" name="R1" value="в брой" checked> В брой &nbsp;
+<input type="radio" name="R1" value="с карта"> С карта &nbsp;
+<input type="radio" name="R1" value="по банков път"> По банков път <p>
+Изберете услуги: <br>
+<input type="checkbox" name="C1" value="din" checked> Вечеря (+20 лева на ден)<br>
+<input type="checkbox" name="C2" value="spa"> Спа (+40 лева)<br>
+<input type="checkbox" name="C3" value="exc"> Екскурзии (+60 лева)<p>
+Изберете брой нощувки: <br>
+<select name="s1">
+<option value="3" selected>3 нощувки </option>
+<option value="5"> 5 нощувки </option>
+<option value="7"> 7 нощувки </option>
+<option value="30"> 30 нощувки </option>	
+</select> <p>
+Цена за една нощувка: <br>
+<textarea name="ta1" rows="4" cols="33">
+Единична стая: 100 лева
+Стая с две легла: 180 лева
+Апартамент: 250 лева	
+</textarea> <p>
+Изберете вида на стаята: <br>
+<select name="s2">
+<option value="1" > Единична стая </option>
+<option value="2" selected> Стая с две легла </option>
+<option value="3"> Апартамент </option>	
+</select> <p>
+<textarea name="ta2" rows="4" cols="33">
+Ако желаете, задайте тук въпроси
+</textarea> <p>
+	<input type="submit" name="b1" value="Потвърдете"> &nbsp;
+	<input type="reset" name="b2" value="Отказ">
+</form> </body> </html>
+
+			
